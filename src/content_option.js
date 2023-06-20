@@ -1,17 +1,17 @@
-const logotext = "JOHN";
+const logotext = "Andrew Winton";
 const meta = {
     title: "John Doe",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Andrew Winton",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I believe life's meaning comes from relationships",
+        second: "I love helping to create easy to use technology to improve relationships",
+        third: "I just happen to have some example here",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to ship products at the intersection of AI and the digital world that solve real human needs.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
