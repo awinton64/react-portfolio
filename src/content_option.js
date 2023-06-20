@@ -1,7 +1,7 @@
 const logotext = "Andrew Winton";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Andrew Winton",
+    description: "I'm Andrew Winton, a product manager, web developer, designer, creator, and AI enthusiast, currently working in Chicago",
 };
 
 const introdata = {
@@ -12,50 +12,70 @@ const introdata = {
         third: "I just happen to have some example here",
     },
     description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to ship products at the intersection of AI and the digital world that solve real human needs.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    //your_img_url: "src/assets/images/headshot.jpeg"
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Beliefs",
+    aboutme: "I believe the best moments in life are those we create together. Whether it's playing games like foosball or having conversations over a shared meal, I find the most enjoyment in these experiences. I also have a passion for building physical products, whether it's a Frankenstein-inspired electric scooter or a web app designed to bring friends closer. I truly love the process of building and creating. If given the opportunity, I look forward to getting to know you too.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Product Manager",
+        where: "West Monroe",
+        date: "Aug 2022 – June 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Business Analyst",
+        where: "Frenik Marketing Group",
+        date: "May 2021 – August 2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Co-founder",
+        where: "Atlanta, GA",
+        date: "March 2020 – December 2020",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Agile ceremonies",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Atlassian tools (Jira, Confluence)",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Figma",
+        value: 80,
+    },
+    {
+        name: "Adobe XD",
+        value: 80,
+    },
+    {
+        name: "Miro",
         value: 80,
     },
     {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "JavaScript",
+        value: 70,
     },
+    {
+        name: "HTML",
+        value: 70,
+    },
+    {
+        name: "CSS",
+        value: 70,
+    },
+    {
+        name: "Django",
+        value: 20,
+    }
 ];
 
 const services = [{
