@@ -6,6 +6,7 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import headshot from "../../assets/images/headshot.png";
 
+
 export const Home = () => {
   return (
     <HelmetProvider>
