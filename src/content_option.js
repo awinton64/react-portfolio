@@ -1,4 +1,7 @@
 import captureitall from "./captureitall.png";
+import groupprofile from "./groupprofile.gif";
+import personalprofile from "./personalprofile.gif";
+import liftfinder from "./liftfinder.gif";
 
 const logotext = "Andrew Winton";
 const meta = {
@@ -112,7 +115,7 @@ const dataportfolio = [{
         second: "Easy find a spot",
         third: "Use lift finder",
     },
-    img: "https://picsum.photos/400/800/?grayscale",
+    img: liftfinder,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -123,7 +126,7 @@ const dataportfolio = [{
         second: "Know when they are working out",
         third: "Compete & celebarte together",
     },
-    img: "https://picsum.photos/400/800?grayscale",
+    img: groupprofile,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -134,7 +137,7 @@ const dataportfolio = [{
         second: "Measure your progress",
         third: "Achieve your goals",
     },
-    img: "https://picsum.photos/400/800/?grayscale",
+    img: personalprofile,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
