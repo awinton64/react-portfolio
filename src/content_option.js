@@ -1,3 +1,5 @@
+import captureitall from "./captureitall.png";
+
 const logotext = "Andrew Winton";
 const meta = {
     title: "Andrew Winton",
@@ -93,9 +95,9 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/800?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: captureitall,
+        description: "This is a demo of our user-friendly web app for audio capture. CaptureItAll is an audio capture service designed to enhance the wedding experience for couples and guests. Our goal is to capture and document cherished moments and memories throughout the event, from the guest's perspective. The intended outcome is a custom vinyl record that encapsulates one of life's greatest shared moments.",
+        link: "https://captureitall.netlify.app/",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
