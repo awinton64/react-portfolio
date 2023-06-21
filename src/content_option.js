@@ -2,6 +2,8 @@ import captureitall from "./captureitall.png";
 import groupprofile from "./groupprofile.gif";
 import personalprofile from "./personalprofile.gif";
 import liftfinder from "./liftfinder.gif";
+import compost2goflyer from "./compost2goflyer.png";
+
 
 const logotext = "Andrew Winton";
 const meta = {
@@ -148,7 +150,7 @@ const dataportfolio = [{
         second: "Participate through your apartment",
         third: "Weekly pickups",
     },
-    img: "https://picsum.photos/400/800?grayscale",
+    img: compost2goflyer,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
