@@ -22,7 +22,7 @@ export const Home = () => {
               backgroundImage: `url(${headshot})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              width: '50%',
+              width: '100%',
               height: '100vh' // Adjust the height to your desired value
             }}
           ></div>
