@@ -176,6 +176,37 @@ export const Portfolio = () => {
             </Col>
           </Row>
         </div>
+        <div className="mb-5 po_items_ho">
+          <Row>
+            <Col lg="6" className="text-center align-self-center">
+              <div className="content text-left">
+              <h2 className="mb-1x">{dataportfolio[5].title}</h2>
+                <h1 className="fluidz-48 mb-1x">
+                  <Typewriter
+                    options={{
+                      strings: [
+                        dataportfolio[5].animated.first,
+                        dataportfolio[5].animated.second,
+                        dataportfolio[5].animated.third,
+                      ],
+                      autoStart: true,
+                      loop: true,
+                      deleteSpeed: 40,
+                    }}
+                  />
+                </h1>
+                <p>{dataportfolio[5].description}</p>
+                <a href={dataportfolio[5].link}>view project</a>
+              </div>
+            </Col>
+            <Col lg="6" className="d-flex align-items-center justify-content-center">
+              <div className="po_item">
+                <img src={dataportfolio[5].img} alt="" className="portfolio-image" style={{ maxWidth: '100%', height: 'auto' }}
+ />
+              </div>
+            </Col>
+          </Row>
+        </div>
 
       </Container>
     </HelmetProvider>

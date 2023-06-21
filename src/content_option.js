@@ -3,6 +3,7 @@ import groupprofile from "./groupprofile.gif";
 import personalprofile from "./personalprofile.gif";
 import liftfinder from "./liftfinder.gif";
 import compost2goflyer from "./compost2goflyer.png";
+import compost2gouserguide from "./compost2gouserguide1.gif";
 
 
 const logotext = "Andrew Winton";
@@ -151,6 +152,17 @@ const dataportfolio = [{
         third: "Weekly pickups",
     },
     img: compost2goflyer,
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    title: "Compost2Go Pilot",
+    animated: {
+        first: "Contribute to a zero waste world",
+        second: "Participate through your apartment",
+        third: "Weekly pickups",
+    },
+    img: compost2gouserguide,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
