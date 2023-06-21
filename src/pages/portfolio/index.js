@@ -5,7 +5,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { meta, dataportfolio, introdata } from "../../content_option";
 import Typewriter from "typewriter-effect";
 
-
 export const Portfolio = () => {
   return (
     <HelmetProvider>
@@ -22,192 +21,41 @@ export const Portfolio = () => {
           </Col>
         </Row>
 
-        <div className="mb-5 po_items_ho">
-          <Row>
-            <Col lg="6" className="d-flex align-items-center justify-content-center">
-              <div className="po_item">
-                <img src={dataportfolio[0].img} alt="" className="portfolio-image" />
-              </div>
-            </Col>
-            <Col lg="6" className="text-center align-self-center">
-              <div className="content text-left">
-              <h2 className="mb-1x">{dataportfolio[0].title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        dataportfolio[0].animated.first,
-                        dataportfolio[0].animated.second,
-                        dataportfolio[0].animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 40,
-                    }}
-                  />
-                </h1>
-                <p>{dataportfolio[0].description}</p>
-                <a href={dataportfolio[0].link}>view demo</a>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <hr className="t_border my-4 ml-0 text-left" />
-        <br/>
-        <div className="mb-5 po_items_ho">
-          <Row>
-            <Col lg="6" className="text-center align-self-center">
-              <div className="content text-left">
-              <h2 className="mb-1x">{dataportfolio[1].title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        dataportfolio[1].animated.first,
-                        dataportfolio[1].animated.second,
-                        dataportfolio[1].animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 40,
-                    }}
-                  />
-                </h1>
-                <p>{dataportfolio[1].description}</p>
-                <a href={dataportfolio[1].link}>view project</a>
-              </div>
-            </Col>
-            <Col lg="6" className="d-flex align-items-center justify-content-center">
-              <div className="po_item">
-                <img src={dataportfolio[1].img} alt="" className="portfolio-image" />
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="mb-5 po_items_ho">
-          <Row>
-            <Col lg="6" className="d-flex align-items-center justify-content-center">
-              <div className="po_item">
-                <img src={dataportfolio[2].img} alt="" className="portfolio-image" />
-              </div>
-            </Col>
-            <Col lg="6" className="text-center align-self-center">
-              <div className="content text-left">
-              <h2 className="mb-1x">{dataportfolio[2].title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        dataportfolio[2].animated.first,
-                        dataportfolio[2].animated.second,
-                        dataportfolio[2].animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 40,
-                    }}
-                  />
-                </h1>
-                <p>{dataportfolio[2].description}</p>
-                <a href={dataportfolio[2].link}>view project</a>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="mb-5 po_items_ho">
-          <Row>
-            <Col lg="6" className="text-center align-self-center">
-              <div className="content text-left">
-              <h2 className="mb-1x">{dataportfolio[3].title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        dataportfolio[3].animated.first,
-                        dataportfolio[3].animated.second,
-                        dataportfolio[3].animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 40,
-                    }}
-                  />
-                </h1>
-                <p>{dataportfolio[3].description}</p>
-                <a href={dataportfolio[3].link}>view project</a>
-              </div>
-            </Col>
-            <Col lg="6" className="d-flex align-items-center justify-content-center">
-              <div className="po_item">
-                <img src={dataportfolio[3].img} alt="" className="portfolio-image" />
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <hr className="t_border my-4 ml-0 text-left" />
-        <br/>
-        <div className="mb-5 po_items_ho">
-          <Row>
-            <Col lg="6" className="d-flex align-items-center justify-content-center">
-              <div className="po_item">
-                <img src={dataportfolio[4].img} alt="" className="portfolio-image" />
-              </div>
-            </Col>
-            <Col lg="6" className="text-center align-self-center">
-              <div className="content text-left">
-              <h2 className="mb-1x">{dataportfolio[4].title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        dataportfolio[4].animated.first,
-                        dataportfolio[4].animated.second,
-                        dataportfolio[4].animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 40,
-                    }}
-                  />
-                </h1>
-                <p>{dataportfolio[4].description}</p>
-                <a href={dataportfolio[4].link}>view project</a>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div className="mb-5 po_items_ho">
-          <Row>
-            <Col lg="6" className="text-center align-self-center">
-              <div className="content text-left">
-              <h2 className="mb-1x">{dataportfolio[5].title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        dataportfolio[5].animated.first,
-                        dataportfolio[5].animated.second,
-                        dataportfolio[5].animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 40,
-                    }}
-                  />
-                </h1>
-                <p>{dataportfolio[5].description}</p>
-                <a href={dataportfolio[5].link}>view project</a>
-              </div>
-            </Col>
-            <Col lg="6" className="d-flex align-items-center justify-content-center">
-              <div className="po_item">
-                <img src={dataportfolio[5].img} alt="" className="portfolio-image" style={{ maxWidth: '100%', height: 'auto' }}
- />
-              </div>
-            </Col>
-          </Row>
-        </div>
-
+        {dataportfolio.map((item, index) => (
+          <div className="mb-5 po_items_ho" key={index}>
+            <div className="po_row">
+              <Row>
+                <Col lg="6" className="d-flex align-items-center justify-content-center">
+                  <div className="po_item">
+                    <img src={item.img} alt="" className="portfolio-image" style={{ marginBottom: '10px', width: '100%' }} />
+                  </div>
+                </Col>
+                <Col lg="6" className="text-center align-self-center">
+                  <div className="content text-left">
+                    <h2 className="mb-1x">{item.title}</h2>
+                    <h1 className="fluidz-48 mb-1x">
+                      <Typewriter
+                        options={{
+                          strings: [item.animated.first, item.animated.second, item.animated.third],
+                          autoStart: true,
+                          loop: true,
+                          deleteSpeed: 40,
+                        }}
+                      />
+                    </h1>
+                    <p>{item.description}</p>
+                    {index === 0 && (
+                      <a href={item.link} className="btn btn-dark" style={{ border: '2px solid white' }}>View Demo</a>
+                    )}
+                  </div>
+                </Col>
+              </Row>
+            </div>
+            {index === 0 && <hr className="t_border my-4 ml-0 text-left" />}
+            {index === 3 && <hr className="t_border my-4 ml-0 text-left" />}
+          </div>
+        ))}
+        <br />
       </Container>
     </HelmetProvider>
   );

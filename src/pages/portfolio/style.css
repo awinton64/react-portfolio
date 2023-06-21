@@ -8,4 +8,28 @@
     display: block;
     margin: 0 auto;
   }
+
+  /* style.css */
+
+.button-filled {
+  background-color: #ffffff; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none;
+  border-radius: 8px; /* Button border radius for beveled edges */
+  padding: 12px 24px; /* Button padding */
+  font-size: 16px; /* Button font size */
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+}
+
+.button-filled:hover {
+  background-color: #eaeaea; /* Button background color on hover */
+  color: #ffffff; /* Button text color on hover */
+}
+
+
+  
   

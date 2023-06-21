@@ -22,8 +22,6 @@ export const Home = () => {
               backgroundImage: `url(${headshot})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              width: '100%',
-              height: '100vh' // Adjust the height to your desired value
             }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">

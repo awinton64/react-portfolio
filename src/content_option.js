@@ -80,10 +80,6 @@ const skills = [{
     name: "CSS",
     value: 70,
 },
-{
-    name: "Django",
-    value: 20,
-}
 ];
 
 const services = [{
