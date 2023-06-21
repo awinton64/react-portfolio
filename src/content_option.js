@@ -123,7 +123,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/andrewmwinton/",
     twitter: "https://twitter.com",
 };
 export {
