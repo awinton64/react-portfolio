@@ -58,7 +58,7 @@ export const Home = () => {
                       offset={-70}
                       duration={500}
                       >
-                        <div id="button_p" className="ac_btn btn">
+                        <div className="btn btn-dark" style={{ border: '2px solid white' }}>
                           My Portfolio
                           <div className="ring one"></div>
                           <div className="ring two"></div>
@@ -73,7 +73,7 @@ export const Home = () => {
                       offset={-70}
                       duration={500}
                       >
-                        <div id="button_h" className="ac_btn btn">
+                        <div className="btn btn-light" style={{ border: '2px solid black' }}>
                           Contact Me
                           <div className="ring one"></div>
                           <div className="ring two"></div>
