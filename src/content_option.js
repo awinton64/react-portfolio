@@ -108,11 +108,6 @@ const services = [
 const dataportfolio = [
     {
         title: "Capture It All",
-        animated: {
-            first: "Create together",
-            second: "Captured together",
-            third: "Cherished forever"
-        },
         img: captureitall,
         description: "This is a demo of our user-friendly web app for audio capture. CaptureItAll is an audio capture service designed to enhance the wedding experience for couples and guests. Our goal is to capture and document cherished moments and memories throughout the event, from the guest's perspective. The intended outcome is a custom vinyl record that encapsulates one of life's greatest shared moments.",
         link: "https://captureitall.netlify.app/"
