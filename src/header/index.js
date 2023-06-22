@@ -28,22 +28,22 @@ const Headermain = () => {
           </div>
         </div>
 
-        {/* <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
+        <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
           <div className="bg__menu h-100">
             <div className="menu__wrapper">
               <div className="menu__container p-3">
                 <ul className="the_menu">
                   <li className="menu_item ">
-                  <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
+                  <div  onClick={handleToggle} to="/" className="my-3">Home</div>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                    <div  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</div>
                   </li>
                   <li className="menu_item">
-                  <div onClick={handleToggle} to="/about" className="my-3">About</Link>
+                  <div onClick={handleToggle} to="/about" className="my-3">About</div>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
+                  <div onClick={handleToggle} to="/contact" className="my-3"> Contact</div>
                   </li>
                 </ul>
               </div>
@@ -57,7 +57,7 @@ const Headermain = () => {
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
-        </div> */}
+        </div>
       </header>
       <div className="br-top"></div>
       <div className="br-bottom"></div>

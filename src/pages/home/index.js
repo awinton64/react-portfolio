@@ -43,24 +43,32 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
+                <br/>
                 <div className="intro_btn-action pb-5">
-                  {/* <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
+                  <div className="row">
+                    <div className="col text-center">
+                      <div to="/portfolio" className="text_2">
+                        <div id="button_p" className="ac_btn btn">
+                          My Portfolio
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </div>
                     </div>
-                  </Link>
-                  <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
-                      Contact Me
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
+                    <div className="col text-center">
+                      <div to="/contact">
+                        <div id="button_h" className="ac_btn btn">
+                          Contact Me
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </div>
                     </div>
-                  </Link> */}
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>

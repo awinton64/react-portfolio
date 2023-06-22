@@ -12,7 +12,7 @@ import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
   return (
-    <div className="stick_follow_icon">
+    <div className="stick_follow_icon" style={{TopMargin: 0}}>
       <ul>
         {/* {socialprofils.twitter && (
           <li>
