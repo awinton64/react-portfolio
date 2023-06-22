@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { meta, dataportfolio, introdata } from "../../content_option";
-import Typewriter from "typewriter-effect";
+import { meta, dataportfolio } from "../../content_option";
+import { AppContext } from "../../AppContext";
 
 export const Portfolio = () => {
+  const { isDarkMode } = useContext(AppContext);
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -27,22 +29,17 @@ export const Portfolio = () => {
               <Row>
                 <Col lg="6" className="d-flex align-items-center justify-content-center">
                   <div className="po_item">
-                    <img src={item.img} alt="" className="portfolio-image" style={{ marginBottom: '10px', width: '100%' }} />
+                    <img
+                      src={isDarkMode && item.imgDarkMode ? item.imgDarkMode : item.img}
+                      alt=""
+                      className="portfolio-image"
+                      style={{ marginBottom: '10px', width: '100%' }}
+                    />
                   </div>
                 </Col>
                 <Col lg="6" className="text-center align-self-center">
                   <div className="content text-left">
                     <h2 className="mb-1x">{item.title}</h2>
-                    <h1 className="fluidz-48 mb-1x">
-                      <Typewriter
-                        options={{
-                          strings: [item.animated.first, item.animated.second, item.animated.third],
-                          autoStart: true,
-                          loop: true,
-                          deleteSpeed: 40,
-                        }}
-                      />
-                    </h1>
                     <p>{item.description}</p>
                     {index === 0 && (
                       <a href={item.link} className="btn btn-dark" style={{ border: '2px solid white' }}>View Demo</a>

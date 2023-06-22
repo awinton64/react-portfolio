@@ -1,9 +1,13 @@
 import captureitall from "./captureitall.png";
 import groupprofile from "./groupprofile.gif";
+import groupprofileblack from "./groupprofileblack.gif";
 import personalprofile from "./personalprofile.gif";
+import personalprofileblack from "./personalprofileblack.gif";
 import liftfinder from "./liftfinder.gif";
+import liftfinderblack from "./liftfinderblack.gif";
 import compost2goflyer from "./compost2goflyer.png";
-import compost2gouserguide from "./compost2gouserguide1.gif";
+import compost2gouserguide from "./compost2gouserguide.gif";
+import compost2gouserguideblack from "./compost2gouserguideblack.gif";
 
 
 const logotext = "Andrew Winton";
@@ -115,6 +119,7 @@ const dataportfolio = [{
         third: "Use lift finder",
     },
     img: liftfinder,
+    imgDarkMode: liftfinderblack,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -126,6 +131,7 @@ const dataportfolio = [{
         third: "Compete & celebarte together",
     },
     img: groupprofile,
+    imgDarkMode: groupprofileblack,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -137,6 +143,7 @@ const dataportfolio = [{
         third: "Achieve your goals",
     },
     img: personalprofile,
+    imgDarkMode: personalprofileblack,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -159,6 +166,7 @@ const dataportfolio = [{
         third: "Weekly pickups",
     },
     img: compost2gouserguide,
+    imgDarkMode: compost2gouserguideblack,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
