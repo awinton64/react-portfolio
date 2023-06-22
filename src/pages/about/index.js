@@ -13,7 +13,7 @@ import {
 export const About = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header">
+      <Container id="about" className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>

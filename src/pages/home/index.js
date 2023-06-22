@@ -4,6 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import headshot from "../../images/headshot.png";
+import { Link } from "react-scroll";
+
 
 
 export const Home = () => {
@@ -35,6 +37,9 @@ export const Home = () => {
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
+                        introdata.animated.fourth,
+                        introdata.animated.fifth,
+                        introdata.animated.sixth
                       ],
                       autoStart: true,
                       loop: true,
@@ -47,24 +52,34 @@ export const Home = () => {
                 <div className="intro_btn-action pb-5">
                   <div className="row">
                     <div className="col text-center">
-                      <div to="/portfolio" className="text_2">
+                      <Link to="portfolio" className="text_2"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      >
                         <div id="button_p" className="ac_btn btn">
                           My Portfolio
                           <div className="ring one"></div>
                           <div className="ring two"></div>
                           <div className="ring three"></div>
                         </div>
-                      </div>
+                      </Link>
                     </div>
                     <div className="col text-center">
-                      <div to="/contact">
+                      <Link to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      >
                         <div id="button_h" className="ac_btn btn">
                           Contact Me
                           <div className="ring one"></div>
                           <div className="ring two"></div>
                           <div className="ring three"></div>
                         </div>
-                      </div>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -7,6 +7,10 @@
 .menu__button {
     color: var(--text-color);
 }
+.the_menu .menu_item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
 
 .menu__button:focus,
 .menu__button:hover {

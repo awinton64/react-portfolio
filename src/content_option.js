@@ -17,11 +17,14 @@ const meta = {
 };
 
 const introdata = {
-    title: "I'm Andrew Winton",
+    title: "Hello, I'm,Andrew Winton",
     animated: {
-        first: "I believe life's meaning comes from relationships",
-        second: "I love helping to create easy to use technology to improve relationships",
-        third: "I just happen to have some example here",
+        first: "I love...",
+        second: "Building relationships",
+        third: "Creating games",
+        fourth: "Playing foosball",
+        fifth: "Writing poetry",
+        sixth: "Eatting chicken parm",
     },
     description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to ship products at the intersection of AI and the digital world that solve real human needs.",
     //your_img_url: "src/assets/images/headshot.jpeg"
@@ -53,7 +56,7 @@ const skills = [{
     value: 90,
 },
 {
-    name: "Atlassian tools (Jira, Confluence)",
+    name: "Jira & Confluence",
     value: 85,
 },
 {

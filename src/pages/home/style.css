@@ -118,19 +118,6 @@ section {
     box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
 }
 
-.ac_btn:hover .one {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.ac_btn:hover .two {
-    transform: translate3d(0px, 0px, 0px);
-}
-
-.ac_btn:hover .three {
-    transform: translate3d(0px, 0px, 0px);
-}
-
 .ac_btn:hover .four {
     transform: translate3d(0px, 0px, 0px);
 }
