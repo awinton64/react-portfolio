@@ -9,7 +9,7 @@ import {
   skills,
   services,
 } from "../../content_option";
-
+import { BsFileEarmarkPdf } from "react-icons/bs";
 export const About = () => {
   return (
     <HelmetProvider>
@@ -23,6 +23,18 @@ export const About = () => {
           <Col lg="8">
             <h1 className="display-4 mb-4">About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <a
+                href={dataabout.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
+              >
+                <BsFileEarmarkPdf size={"2rem"} style={{ marginRight: "0.5rem" }} />
+                <span style={{ verticalAlign: "middle" }}>View Resume</span>
+              </a>
+            </div>
+
           </Col>
         </Row>
         <Row className="sec_sp">

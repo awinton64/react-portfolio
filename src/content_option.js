@@ -8,6 +8,7 @@ import liftfinderblack from "./liftfinderblack.gif";
 import compost2goflyer from "./compost2goflyer.png";
 import compost2gouserguide from "./compost2gouserguide.gif";
 import compost2gouserguideblack from "./compost2gouserguideblack.gif";
+import resume from "./resume_6_22_23.pdf";
 
 const logotext = "Andrew Winton";
 const meta = {
@@ -30,6 +31,7 @@ const introdata = {
 
 const dataabout = {
     title: "Beliefs",
+    resume: resume,
     aboutme: "I believe the best moments in life are those we create together. Whether it's playing games like foosball or having conversations over a shared meal, I find the most enjoyment in these experiences. I also have a passion for building physical products, whether it's a Frankenstein-inspired electric scooter or a web app designed to bring friends closer. I truly love the process of building and creating. If given the opportunity, I look forward to getting to know you too.",
 };
 
