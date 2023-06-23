@@ -25,7 +25,7 @@ const introdata = {
         fifth: "Writing poetry",
         sixth: "Eating chicken parm",
     },
-    description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to ship products at the intersection of AI and the digital world that solve real human needs.",
+    description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to ship products at the intersection of AI and the digital world that solve real human problems.",
 };
 
 const dataabout = {
