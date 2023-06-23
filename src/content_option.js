@@ -48,7 +48,7 @@ const worktimeline = [
     },
     {
         jobtitle: "Co-founder",
-        where: "Atlanta, GA",
+        where: "SpotMe",
         date: "March 2020 – December 2020"
     }
 ];
