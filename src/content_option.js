@@ -20,13 +20,13 @@ const introdata = {
     title: "Hello, I'm Andrew Winton",
     animated: {
         first: "I love...",
-        second: "Building relationships",
+        second: "Great converstations",
         third: "Creating games",
         fourth: "Playing foosball",
         fifth: "Writing poetry",
         sixth: "Eating chicken parm",
     },
-    description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to ship products at the intersection of AI and the digital world that solve real human problems.",
+    description: "I believe the best moments in life are created together and want to apply my intrapreneurial drive, product management skills, and web development knowledge to create products that bring people closer together and solve real human problems.",
 };
 
 const dataabout = {
@@ -36,6 +36,11 @@ const dataabout = {
 };
 
 const worktimeline = [
+    {
+        jobtitle: "Product Manager",
+        where: "Elemint",
+        date: "July 2023 – October 2023"
+    },
     {
         jobtitle: "Product Manager",
         where: "West Monroe",
@@ -55,8 +60,12 @@ const worktimeline = [
 
 const skills = [
     {
-        name: "Agile ceremonies",
+        name: "Product Management",
         value: 90
+    },
+    {
+        name: "Agile ceremonies",
+        value: 85
     },
     {
         name: "Jira & Confluence",
@@ -75,7 +84,7 @@ const skills = [
         value: 80
     },
     {
-        name: "React",
+        name: "ReactJS",
         value: 70
     },
     {
@@ -157,7 +166,7 @@ const dataportfolio = [
 
 const contactConfig = {
     YOUR_EMAIL: "andrewwinton909@gmail.com",
-    YOUR_FONE: "(678)408-1063",
+    YOUR_FONE: "(678) 408-1063",
     description: "Please give me a call or send me an email. I look forward to getting to know you.",
     // create an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
