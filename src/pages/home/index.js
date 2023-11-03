@@ -64,7 +64,7 @@ export const Home = () => {
                         ],
                         autoStart: true,
                         loop: true,
-                        deleteSpeed: 40,
+                        deleteSpeed: 5,
                       }}
                     />
                   </h1>

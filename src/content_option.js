@@ -1,3 +1,4 @@
+import drinifyouthinkvideo from "./drink_if_you_think_explainer.mp4";
 import captureitall from "./captureitall.png";
 import groupprofile from "./groupprofile.gif";
 import groupprofileblack from "./groupprofileblack.gif";
@@ -119,7 +120,7 @@ const services = [
 const dataportfolio = [
     {
         title: "Just Recess",
-        img: captureitall,
+        vid: drinifyouthinkvideo,
         description: "The best moments in life are created through genuine human connection. That's why we offer an easy and entertaining way to get to know others in a small group setting and develop genuine, in-person connections. We build easy-to-use, curated digital games for friends. So next time you're drinking with friends in need of a game, think Drink If You Think.",
         link: "https://justrecess.com/"
     },
