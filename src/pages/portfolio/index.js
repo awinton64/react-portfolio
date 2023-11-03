@@ -36,14 +36,14 @@ export const Portfolio = () => {
                       style={{ marginBottom: '10px', width: '100%' }}
                     />
                     {item.vid &&
-                    <video
-                      src={item.vid}
-                      autoPlay
-                      loop
-                      muted
-                      controls
-                      style={{ width: '100%' }}
-                    />
+                      <video
+                        src={item.vid}
+                        autoPlay
+                        loop
+                        muted
+                        controls
+                        style={{ width: '100%' }}
+                      />
                     }
                   </div>
                 </Col>
@@ -52,23 +52,23 @@ export const Portfolio = () => {
                     <h2 className="mb-1x">{item.title}</h2>
                     <p>{item.description}</p>
                     {index === 0 && (
-                      <a 
-                      href={item.link} 
-                      className="btn btn-dark" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ border: '2px solid white' }} 
+                      <a
+                        href={item.link}
+                        className="btn btn-dark"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ border: '2px solid white' }}
                       >
                         Play Now
                       </a>
                     )}
                     {index === 1 && (
-                      <a 
-                      href={item.link} 
-                      className="btn btn-dark" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ border: '2px solid white' }} 
+                      <a
+                        href={item.link}
+                        className="btn btn-dark"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ border: '2px solid white' }}
                       >
                         Leave me a voice messaage
                       </a>
@@ -77,8 +77,9 @@ export const Portfolio = () => {
                 </Col>
               </Row>
             </div>
-            {index === 0 && <hr className="t_border my-4 ml-0 text-left" />}
-            {index === 3 && <hr className="t_border my-4 ml-0 text-left" />}
+            {[0, 1, 4].includes(index) && (
+              <hr className="t_border my-4 ml-0 text-left" />
+            )}
           </div>
         ))}
         <br />

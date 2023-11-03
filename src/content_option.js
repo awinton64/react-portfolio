@@ -48,6 +48,11 @@ const worktimeline = [
         date: "Aug 2022 – June 2023"
     },
     {
+        jobtitle: "Founder",
+        where: "Just Recess",
+        date: "January 2022 – Present"
+    },
+    {
         jobtitle: "Business Analyst",
         where: "Frenik Marketing Group",
         date: "May 2021 – August 2021"
