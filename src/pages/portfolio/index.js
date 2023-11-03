@@ -42,6 +42,9 @@ export const Portfolio = () => {
                     <h2 className="mb-1x">{item.title}</h2>
                     <p>{item.description}</p>
                     {index === 0 && (
+                      <a href={item.link} className="btn btn-dark" style={{ border: '2px solid white' }}>Play Now</a>
+                    )}
+                    {index === 1 && (
                       <a href={item.link} className="btn btn-dark" style={{ border: '2px solid white' }}>Leave me a voice messaage</a>
                     )}
                   </div>

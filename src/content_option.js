@@ -8,7 +8,7 @@ import liftfinderblack from "./liftfinderblack.gif";
 import compost2goflyer from "./compost2goflyer.png";
 import compost2gouserguide from "./compost2gouserguide.gif";
 import compost2gouserguideblack from "./compost2gouserguideblack.gif";
-import resume from "./andrew_winton_resume_10_31_23.pdf";
+import resume from "./andrew_winton_resume_11_3_23.pdf";
 
 const logotext = "Andrew Winton";
 const meta = {
@@ -117,6 +117,12 @@ const services = [
 ];
 
 const dataportfolio = [
+    {
+        title: "Just Recess",
+        img: captureitall,
+        description: "The best moments in life are created through genuine human connection. That's why we offer an easy and entertaining way to get to know others in a small group setting and develop genuine, in-person connections. We build easy-to-use, curated digital games for friends. So next time you're drinking with friends in need of a game, think Drink If You Think.",
+        link: "https://justrecess.com/"
+    },
     {
         title: "Capture It All",
         img: captureitall,
