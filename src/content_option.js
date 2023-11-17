@@ -9,7 +9,7 @@ import liftfinderblack from "./liftfinderblack.gif";
 import compost2goflyer from "./compost2goflyer.png";
 import compost2gouserguide from "./compost2gouserguide.gif";
 import compost2gouserguideblack from "./compost2gouserguideblack.gif";
-import resume from "./andrew_winton_resume_11_7_23.pdf";
+import resume from "./andrew_winton_resume_11_17_23.pdf";
 
 const logotext = "Andrew Winton";
 const meta = {
