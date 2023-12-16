@@ -21,7 +21,7 @@ const introdata = {
     title: "Hello, I'm Andrew Winton",
     animated: {
         first: "I love...",
-        second: "Great converstations",
+        second: "Great conversations",
         third: "Creating games",
         fourth: "Playing foosball",
         fifth: "Writing poetry",
