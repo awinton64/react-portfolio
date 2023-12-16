@@ -36,7 +36,7 @@ export const About = () => {
                 className="pdf__button" 
                 onClick={handlePDFClick}
                 >
-                <span style={{ marginRight: "0.5rem" }}>View Resume</span>
+                <span style={{ marginRight: "0.5rem" }}>Resume</span>
                 <FiExternalLink size={"2rem"} />
               </span>
             </h1>            
