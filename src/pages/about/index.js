@@ -7,10 +7,14 @@ import {
   meta,
   worktimeline,
   skills,
-  services,
 } from "../../content_option";
-import { BsFileEarmarkPdf } from "react-icons/bs";
+import { FiExternalLink } from "react-icons/fi";
 export const About = () => {
+
+  const handlePDFClick = () => {
+    window.open(dataabout.resume, "_blank");
+  };
+
   return (
     <HelmetProvider>
       <Container id="about" className="About-header">
@@ -21,19 +25,22 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 mb-4" style={{ whiteSpace: "nowrap" }}>
+              About me |
+              <span 
+                style={{ 
+                  marginLeft: "0.5rem",
+                  cursor: "pointer",
+                  fontSize: "2rem",
+               }} 
+                className="pdf__button" 
+                onClick={handlePDFClick}
+                >
+                <span style={{ marginRight: "0.5rem" }}>View Resume</span>
+                <FiExternalLink size={"2rem"} />
+              </span>
+            </h1>            
             <hr className="t_border my-4 ml-0 text-left" />
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <a
-                href={dataabout.resume}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
-              >
-                <BsFileEarmarkPdf size={"2rem"} style={{ marginRight: "0.5rem" }} />
-                <span style={{ verticalAlign: "middle" }}>View Resume</span>
-              </a>
-            </div>
 
           </Col>
         </Row>

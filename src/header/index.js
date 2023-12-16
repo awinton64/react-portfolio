@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
-import { logotext, socialprofils } from "../content_option";
+import {
+  logotext,
+  dataabout,
+} from "../content_option";
 import Themetoggle from "../components/themetoggle";
 import { Link } from "react-scroll";
+import { FiExternalLink } from "react-icons/fi";
+
 
 const Headermain = () => {
   const [isActive, setActive] = useState(false);
@@ -11,6 +16,10 @@ const Headermain = () => {
   const handleToggle = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
+  };
+
+  const handlePDFClick = () => {
+    window.open(dataabout.resume, "_blank");
   };
 
   return (
@@ -27,6 +36,7 @@ const Headermain = () => {
             </button>
           </div>
         </div>
+
 
         <div className={`site__navigation ${isActive ? "menu__opend" : ""}`}>
           <div className="bg__menu h-100">
@@ -81,6 +91,14 @@ const Headermain = () => {
                       Contact
                     </Link>
                   </li>
+                  {isActive && (
+                    <li className="menu_item">
+                      <div className="pdf__button" onClick={handlePDFClick} style={{ fontSize: "1.5rem", marginTop: "2rem", display: "flex", alignItems: "center", cursor: "pointer" }}>
+                        <span style={{ marginRight: "0.5rem" }}>View Resume</span>
+                        <FiExternalLink size={"2rem"} />
+                      </div>
+                    </li>
+                  )}
                 </ul>
               </div>
             </div>
