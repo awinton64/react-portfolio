@@ -31,13 +31,13 @@ export const About = () => {
                 style={{ 
                   marginLeft: "0.5rem",
                   cursor: "pointer",
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                }} 
                 className="pdf__button" 
                 onClick={handlePDFClick}
                 >
                 <span style={{ marginRight: "0.5rem" }}>Resume</span>
-                <FiExternalLink size={"2rem"} />
+                <FiExternalLink size={"1.5rem"} />
               </span>
             </h1>            
             <hr className="t_border my-4 ml-0 text-left" />
