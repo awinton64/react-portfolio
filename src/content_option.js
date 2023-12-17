@@ -129,12 +129,12 @@ const dataportfolio = [
         description: "The best moments in life are created through genuine human connection. That's why we offer an easy and entertaining way to get to know others in a small group setting and develop genuine, in-person connections. We build easy-to-use, curated digital games for friends. So next time you're drinking with friends in need of a game, think Drink If You Think.",
         link: "https://justrecess.com/"
     },
-    {
-        title: "Capture It All",
-        img: captureitall,
-        description: "This is a demo of our user-friendly web app for audio capture. CaptureItAll is an audio capture service designed to enhance the wedding experience for couples and guests. Our goal is to capture and document cherished moments and memories throughout the event, from the guest's perspective. The intended outcome is a custom vinyl record that encapsulates one of life's greatest shared moments.",
-        link: "https://captureitall.netlify.app/"
-    },
+    // {
+    //     title: "Capture It All",
+    //     img: captureitall,
+    //     description: "This is a demo of our user-friendly web app for audio capture. CaptureItAll is an audio capture service designed to enhance the wedding experience for couples and guests. Our goal is to capture and document cherished moments and memories throughout the event, from the guest's perspective. The intended outcome is a custom vinyl record that encapsulates one of life's greatest shared moments.",
+    //     link: "https://captureitall.netlify.app/"
+    // },
     {
         title: "SpotMe's Lift Finder",
         img: liftfinder,

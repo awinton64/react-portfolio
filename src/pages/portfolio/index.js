@@ -62,7 +62,7 @@ export const Portfolio = () => {
                         Play Now
                       </a>
                     )}
-                    {index === 1 && (
+                    {/* {index === 1 && (
                       <a
                         href={item.link}
                         className="btn btn-dark"
@@ -72,12 +72,12 @@ export const Portfolio = () => {
                       >
                         Leave me a voice messaage
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </Col>
               </Row>
             </div>
-            {[0, 1, 4].includes(index) && (
+            {[0, 3].includes(index) && (
               <hr className="t_border my-4 ml-0 text-left" />
             )}
           </div>
