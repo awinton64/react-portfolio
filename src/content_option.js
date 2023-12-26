@@ -40,12 +40,12 @@ const worktimeline = [
     {
         jobtitle: "Product Manager",
         where: "Elemint",
-        date: "July 2023 – October 2023"
+        date: "2023"
     },
     {
         jobtitle: "Product Manager",
         where: "West Monroe",
-        date: "Aug 2022 – June 2023"
+        date: "2022 - 2023"
     },
     {
         jobtitle: "Founder",
@@ -55,12 +55,12 @@ const worktimeline = [
     {
         jobtitle: "Business Analyst",
         where: "Frenik Marketing Group",
-        date: "May 2021 – August 2021"
+        date: "2021"
     },
     {
         jobtitle: "Co-founder",
         where: "SpotMe",
-        date: "March 2020 – December 2020"
+        date: "2020"
     }
 ];
 
