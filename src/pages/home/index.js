@@ -38,7 +38,6 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1xcBwr9k5R9ts039CrQcOlp2apoL7JX0&ehbc=2E312F" width="640" height="480"></iframe>
           <div
             className="h_bg-image order-1 order-lg-2 h-100"
             style={{
