@@ -113,7 +113,6 @@ export const About = () => {
             })}
           </Col>
         </Row> */}
-        <iframe src="https://www.google.com/maps/d/embed?mid=1xcBwr9k5R9ts039CrQcOlp2apoL7JX0&ehbc=2E312F" width="640" height="480"></iframe>
       </Container>
     </HelmetProvider>
   );
