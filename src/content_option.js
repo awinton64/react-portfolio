@@ -124,6 +124,13 @@ const services = [
 
 const dataportfolio = [
     {
+        title: "Friends of Friends",
+        // img: captureitall,
+        ifm: '<iframe title="FoF" height="450" width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fz1E53NBSfQSj16MAxNZcVt%2FFoF-Figma%3Ftype%3Ddesign%26node-id%3D42-1090%26t%3DPWsEDAndh02urFM3-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node" allowfullscreen></iframe>',
+        description: "An app that helps young adults in cities who want to make more friends by making it easy to find friends through people they already know, unlike apps that match solely based on interests or looks.",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSce0FSNmIM04WrAqDAHlFC0RLqul9INogw-Lt5P71GQVrzX4Q/viewform?usp=sf_link"
+    },
+    {
         title: "Just Recess",
         vid: drinifyouthinkvideo,
         description: "The best moments in life are created through genuine human connection. That's why we offer an easy and entertaining way to get to know others in a small group setting and develop genuine, in-person connections. We build easy-to-use, curated digital games for friends. So next time you're drinking with friends in need of a game, think 'Drink If You Think'.",

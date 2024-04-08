@@ -45,13 +45,16 @@ export const Portfolio = () => {
                         style={{ width: '100%' }}
                       />
                     }
+                    {item.ifm &&
+                      <div dangerouslySetInnerHTML={{ __html: item.ifm }} style={{ width: '100%' }} />
+                    }
                   </div>
                 </Col>
                 <Col lg="6" className="text-center align-self-center">
                   <div className="content text-left">
                     <h2 className="mb-1x">{item.title}</h2>
                     <p>{item.description}</p>
-                    {index === 0 && (
+                    {(index === 0 || index === 1) && (
                       <a
                         href={item.link}
                         className="btn btn-dark"
@@ -59,7 +62,7 @@ export const Portfolio = () => {
                         rel="noopener noreferrer"
                         style={{ border: '2px solid white' }}
                       >
-                        Play Now
+                        {index === 0 ? "Join" : "Play Now"}
                       </a>
                     )}
                     {/* {index === 1 && (
@@ -77,7 +80,7 @@ export const Portfolio = () => {
                 </Col>
               </Row>
             </div>
-            {[0, 3].includes(index) && (
+            {[0, 1, 3].includes(index) && (
               <hr className="t_border my-4 ml-0 text-left" />
             )}
           </div>
