@@ -80,7 +80,7 @@ export const Portfolio = () => {
                 </Col>
               </Row>
             </div>
-            {[0, 1, 3].includes(index) && (
+            {[0, 1, 4].includes(index) && (
               <hr className="t_border my-4 ml-0 text-left" />
             )}
           </div>
